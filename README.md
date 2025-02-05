@@ -1,4 +1,4 @@
-# Books ETL Pipeline
+# Books Pipeline
 
 This project demonstrates ETL pipeline to extract book data from multiple sources for analysis purpose. Extraction, transformation, and loading occur montly in providing behaviour change in consumer book review and update on new books. 
 
@@ -16,7 +16,7 @@ This project demonstrates ETL pipeline to extract book data from multiple source
 
 - Arhitecture design: Batch layer
 - Extraction time: Monthly
-- Destination: S3, PostgresSQL
+- Destination: S3, PostgresSQ
 
 
 ### Tools
