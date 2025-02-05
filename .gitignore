@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Airflow specific
+airflow.db
+airflow.cfg
+logs/
+.dags/
+
+# SQLite database
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python package builds
+dist/
+build/
+*.egg-info/
+
+# Docker files
+docker-compose.override.yml
+
+# Secrets and credentials
+config/secrets.yaml
+secrets/
+*.pem
+*.key
+*.crt
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore airflow dags folder if dynamically generated
+dags/__pycache__/
+dags/generated/
+dags/chromedriver-win64/
+
+# Ignore compiled Cython files
+*.so
+
+# Ignore logs and temporary files from ETL runs
+/tmp/
+/output/
+/data/*.parquet
+/data/*.csv
